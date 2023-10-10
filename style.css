@@ -271,7 +271,7 @@ nav .social-icons {
 @media (max-width: 767px) {
   .container {
     flex-direction: column;
-    margin-bottom: 100px;
+    height: fit-content;
   }
   .container .image-holder {
     order: 1;
@@ -302,6 +302,7 @@ nav .social-icons {
     order: 3;
     width: 90%;
     margin: 40px 20px;
+    height: fit-content;
   }
   .container .desc h2 {
     font-size: 26px;
@@ -319,14 +320,10 @@ nav .social-icons {
     margin: 26px auto;
   }
 }
-@media (max-width: 376px) {
-  .container {
-    margin-bottom: 200px;
-  }
-  .container .desc button {
-    margin: 100px auto 20px;
-  }
-  .container .desc .numbers {
-    margin: 30px auto;
+@media (max-width: 390px) {
+  .container .btn-holder {
+    position: relative;
+    top: 100px;
+    margin-bottom: 100px;
   }
 }
